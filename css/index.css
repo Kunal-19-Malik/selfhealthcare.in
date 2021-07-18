@@ -1,0 +1,67 @@
+
+
+.black_content{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.hello{
+    padding: 5rem 0;
+}
+
+.hello h1{
+    font-weight: bold;
+   font-size: 6rem; 
+}
+
+.greeting_col{
+    padding-top: 3rem;
+}
+
+.greeting_para{
+    font-size: 25px;
+}
+
+
+.middle_container{
+    margin: 5rem;
+}
+
+.content{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+   font-size: 2rem;
+}
+
+.left_col{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+.right_col{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+  .feature-box{
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .features-icon{
+    margin-bottom: 1rem;
+    color: orangered;
+  }
+  
+  .features-icon:hover{
+    color: #E1306C;
+  }
+  
+  

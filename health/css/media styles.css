@@ -1,0 +1,162 @@
+@media screen and (max-width: 1200px) {
+    
+
+   
+    .navbar{
+        background: linear-gradient(90deg,#0F2027,#2C5364) ;
+        /* background-color: rgb(241, 137, 137); */
+    
+    }
+    .nav-content{
+        margin-left: 0;
+    }
+    
+    
+    .logo{
+        /* margin-left: 3%; */
+        width: 25%;
+    }
+    
+    .logo-name{
+        /* color: white; */
+        letter-spacing: 3px;
+        font-size: 1.75rem;
+    padding: 0;
+    }
+    
+    /* -----------------------------Carosual---------------------------------*/
+.carousel-heading{
+    margin-top: 8rem;
+    font-size: 1.75rem;
+
+}
+
+.carousel-para{
+    font-size: 1.15rem;
+}
+
+
+    /* ---------------------Middle Main Box------------------------- */
+.main-content{
+    display:flex;
+    flex-wrap:  wrap;
+    margin-top: 0;
+}
+
+
+
+/* --------------------------------------Left-Content------------------- */
+.left{
+    width: 80vw;
+    margin-right: 0;
+}
+
+.left-contents  { 
+    margin-top: 3rem;
+    position: static;
+}
+
+/* --------------------------------Middle----------------------------- */
+.middle{
+    width:auto;
+    padding-left:0;
+    }
+    
+    
+    
+    /* ---------------------------Middle-Content--------------------- */
+    .middle-content{
+        text-align: justify;   
+        justify-content: flex-end;
+        padding: 0 20px  50px;
+    }
+
+    /* ----------------------H1 Headings----------------------------- */
+    .headings{
+        padding-top:1rem;
+    }
+    
+
+  /* --------------------------------Footer------------------------------ */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: center;
+    z-index: 10;
+    /* padding: 5rem 0 2rem 5rem; */
+    padding: 5rem 0 0 0;
+    /* background-color: #9fedd7; */
+    background: linear-gradient(90deg,#0F2027,#2C5364) ;
+    color: white;
+    /* background-color: rgb(223, 220, 220); */
+}
+
+.footer-img{
+    margin-bottom: 2rem;
+    width: 50%;
+    align-self: center;
+}
+/* ----------------------------------------------------------------- */
+.footer-detail{
+    /* display: flex; */
+    margin-left: 2rem ;
+    display: inline-block;
+    justify-content: s;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+.footer-about{
+    display: inline-block;
+    width: 70vw;
+    text-align: justify;
+}
+
+
+.quick-link-list {
+    padding: 0;
+    list-style: none;
+}
+
+/* ---------------------Footer Copyright Section----------------------- */
+.footer-copyright{
+    /* width: 90vw; */
+    display: block;
+    margin: 30px ;
+    text-align: center;
+}
+
+/* -------------------Copy-Right Section------------------------------ */
+.copyright{
+    font-size: 10px;
+    padding: 0;
+}
+
+/* --------------------------Social-Media-Icon------------------------ */
+
+.footer-icon{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: left;
+    
+    
+}
+
+.social-icon{
+    color: orangered;
+    display: block;
+    font-size: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    margin: 10px 12px;
+    transition: .3s linear;
+    position: relative;
+}   
+
+
+}
